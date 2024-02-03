@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bomareco/public_html/nodejsapps/deploy-test
+    - export DEPLOYPATH=/home/bomareco/public_html/nodejsapps/deploy-test/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
